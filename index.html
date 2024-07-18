@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Quiz App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+         <div class="container">
+            <h2 class="head">Quiz App</h2>
+            <div class="quiz">
+                <div>
+                    <h2 id="qns"></h2>
+                </div>
+                <div>
+                     <input type="radio" id="ans1" class="options" name="option">
+                     <label id="opt1"></label>
+                </div>    
+                <div>
+                    <input type="radio" id="ans2" class="options" name="option">
+                    <label id="opt2"></label>
+               </div>    
+               <div>
+                <input type="radio" id="ans3" class="options" name="option">
+                <label id="opt3"></label>
+           </div>    
+           <div>
+            <input type="radio" id="ans4" class="options" name="option">
+            <label id="opt4"></label>
+       </div>    
+
+             <div class="btn">
+                <h2 class="myscore"></h2>
+                <button onclick="next()" id="next">Next</button>
+             </div>
+         </div>
+    </div>
+    <script src="./script.js"></script>      
+</body>
+</html>
+
